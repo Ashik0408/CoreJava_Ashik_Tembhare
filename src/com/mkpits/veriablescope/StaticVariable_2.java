@@ -15,7 +15,7 @@ public class StaticVariable_2 {
 		
 		// there is another way without creating object we can access that varible by creating instance 
 		
-		
+		System.out.println(new StaticVariableClass().phoneNumber);
 
 	}  
 
