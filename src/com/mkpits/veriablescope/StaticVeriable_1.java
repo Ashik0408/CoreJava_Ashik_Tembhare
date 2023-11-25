@@ -16,5 +16,7 @@ public class StaticVeriable_1 {
 		System.out.println(StaticVariableClass.phoneNumber);
 
 	}
+	
+	
 
 }

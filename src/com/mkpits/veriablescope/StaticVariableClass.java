@@ -2,7 +2,7 @@ package com.mkpits.veriablescope;
 
 public class StaticVariableClass {
 	
-	static long phoneNumber=8806335450L;
+	public static long phoneNumber=8806335450L; //public - accessible for all the area i.e 
 
 	public static void main(String[] args) {
 		
