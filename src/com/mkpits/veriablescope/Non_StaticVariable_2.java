@@ -19,7 +19,7 @@ public class Non_StaticVariable_2 {
 	System.out.println("Serial Number Of product is :- "+nsv.serialNum);
 	System.out.println("Mobile Number :- "+nsv.mobNum);
 	System.out.println("Current Petrol Price :- "+nsv.petrolPrice);
-	System.out.println("Salary :- "+nsv.salary);
+	System.out.println("Salary :- "+nsv.salary);  
 	System.out.println("Is Digit :- "+nsv.isDigit);
 		
 
