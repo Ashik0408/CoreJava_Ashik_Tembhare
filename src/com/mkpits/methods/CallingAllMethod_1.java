@@ -13,7 +13,7 @@ public class CallingAllMethod_1 {
 	  smc.getMobile();
 	  StaticMethodCallingByObject smo=new StaticMethodCallingByObject();
 	  smo.getGender();
-	  smo.getPasword();
+	  smo.getPasword1();
 
 	}
 

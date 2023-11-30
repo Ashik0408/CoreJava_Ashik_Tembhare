@@ -7,7 +7,7 @@ public class StaticMethodCallingByObject {
 		System.out.println("Male");
 	}
 	
-	public static void getPasword()
+	public static void getPasword1()
 	{
 		System.out.println("Password");
 	}
@@ -30,7 +30,7 @@ public class StaticMethodCallingByObject {
 		System.out.println("Gender :- ");
 		smo.getGender();
 		System.out.println("Password :- ");
-		smo.getPasword();
+		smo.getPasword1();
 		
 
 	}

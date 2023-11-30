@@ -5,6 +5,7 @@ public class StaticMethodCallingByClassName {
 	public static void getMobile() {
 		
 		System.out.println(9834826072l);
+		
 	}
 	
 	public static void getEmail()
