@@ -14,7 +14,8 @@ public class CallingClass {
 		c.getMobile(8806335450l);
 		c.getGender('M');
 		c.getPassword("Ashik123");
-		System.out.println("********************************");
+		System.out.println("***********************************************");
+		System.out.println("-----------------------------------------------");
 		c.getUsername(uname);
 		c.getMobile(mobile);
 		c.getGender(ch);
