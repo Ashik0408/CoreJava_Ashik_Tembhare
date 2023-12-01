@@ -19,6 +19,9 @@ public class CallingClass {
 		c.getMobile(mobile);
 		c.getGender(ch);
 		c.getPassword(pass);
+		
+		String str="";
+		System.out.println(str);
 
 	}
 
