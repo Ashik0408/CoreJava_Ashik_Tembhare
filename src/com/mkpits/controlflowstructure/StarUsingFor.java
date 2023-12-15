@@ -4,7 +4,7 @@ public class StarUsingFor {
 
 	public static void main(String[] args) {
 		
-		
+		// triangle pattern problem 
 		for(int i=1;i<=5;i++)
 		{
 			for(int j=1;j<=i;j++)
@@ -16,7 +16,7 @@ public class StarUsingFor {
 		
 		System.out.println();
 
-		
+		// odd triangle pattern
 		for(int i=1;i<=10;i++)
 		{
 			for(int j=1;j<=i;j++)
@@ -28,7 +28,7 @@ public class StarUsingFor {
 		}
 		
 		System.out.println("Pyramid Triengle");
-		
+		// symmetric pyramid pattern
 		for(int i=1;i<=5;i++)
 		{
 			for(int k=i;k<5;k++)
