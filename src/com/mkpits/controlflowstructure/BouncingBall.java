@@ -10,7 +10,7 @@ public class BouncingBall {
 	{
 		System.out.println("Bouncing Ball Game....");
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Enter the Ball Bounce.....");
+		System.out.println("Enter the 10 Bounce.....");
 		int bounce=Integer.parseInt(br.readLine());
 		int count=0;
 		for(int i=1;i<=bounce;i++)
