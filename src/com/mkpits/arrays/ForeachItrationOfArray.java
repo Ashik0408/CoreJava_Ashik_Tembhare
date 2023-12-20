@@ -26,6 +26,8 @@ public class ForeachItrationOfArray
 		{
 			System.out.println("The value Of "+(i)+": "+i);
 		}
+		
+		
 
 	}
 

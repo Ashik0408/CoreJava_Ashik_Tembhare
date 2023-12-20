@@ -13,7 +13,7 @@ public class ArraySort {
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		
 		System.out.print("Enter the Range of Array :- ");
-		int number[]=new int[Integer.parseInt(br.readLine())];
+		Integer number[]=new Integer[Integer.parseInt(br.readLine())];
 		
 		System.out.println("Enter the values of Array :");
 		
@@ -31,7 +31,12 @@ public class ArraySort {
 		// to sort array in descending order we used Collectio.reverse() method 
 		
 		System.out.println("\nDescending order of Array :");
-		//Arrays.sort(number, Collections.reverseOrder());
+		Arrays.sort(number, Collections.reverseOrder());
+		
+		for (Integer i : number) 
+		{
+			System.out.println(i);
+		}
 
 	}
 
