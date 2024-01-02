@@ -20,7 +20,7 @@ public class CurrentAccount extends BankAccount
 		
 	}
 	@Override
-	public void withdraw(double withdraw) 
+	public void withdraw(double withdraw)
 	{
 		if(getBalence()>=withdraw)
 		{
