@@ -16,12 +16,14 @@ public class Manager extends Employee
 		this.address = address;
 	}
 
+	//overriding method
 	double calculateSalary() 
 	{
 		return perDaySalary*workingDays;
 		
 	}
 
+	//overriding method
 	void employeeInfo() 
 	{
 		System.out.println("Employee Name : "+empName);

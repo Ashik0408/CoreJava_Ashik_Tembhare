@@ -10,7 +10,7 @@ public abstract class Employee
 		this.workingDays=workingDays;
 		this.perDaySalary = perDaySalary;
 	}
-	 abstract double calculateSalary();
+	 abstract double calculateSalary(); 
 	 abstract void employeeInfo();
 	 
 	 
