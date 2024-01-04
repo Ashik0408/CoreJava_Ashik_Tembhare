@@ -10,13 +10,17 @@ public class AddtionUpToOneDigit
 	public static void main(String[] args) throws NumberFormatException, IOException 
 	{
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		int num,sum=0;
+		long num,sum=0;
 		System.out.println("Enter The Number:-");
-		num=Integer.parseInt(br.readLine());
+		num=Long.parseLong(br.readLine());
+		// checking the number is geter than 10 or not if not then assign directly to the sum and print the value
+		
 		if(num>=10)
 		{
-			while(num>0 || sum>9)
+			// run the loop until the condition is not satisfied
+			while(num>0 || sum>10)
 			{
+				// assigning the value to the corresponding variables
 				if(num==0)
 				{
 					num=sum;
