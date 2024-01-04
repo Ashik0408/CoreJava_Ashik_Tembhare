@@ -10,7 +10,9 @@ public class CopyNumberFromStringArray {
 	public static void main(String[] args) throws IOException 
 	{
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		String[]num=new String[5];
+		System.out.println("ENter The Size Of Array :");
+		byte size=Byte.parseByte(br.readLine());
+		String[]num=new String[size];
 		System.out.println("Enter String number");
 		for (int i = 0; i < num.length; i++) 
 		{
