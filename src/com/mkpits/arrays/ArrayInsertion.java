@@ -38,7 +38,7 @@ public class ArrayInsertion {
 				number[i]=newValue;
 				
 			}
-		
+	
 		}
 		
 		for (int i : number) {

@@ -20,14 +20,16 @@ public class CopyNumberFromStringArray {
 			
 		}
 		
-		
+		// int array
 		int number[]=new int[num.length];
+		
 		for (int i = 0; i < num.length; i++) 
 		{
+			// converting coming charecter into int 
 			number[i]=Integer.parseInt(num[i]);
 			
 		}
-		
+		// print the array
 		System.out.println("Integer Number");
 		for (int i : number) {
 			System.out.println(i);
