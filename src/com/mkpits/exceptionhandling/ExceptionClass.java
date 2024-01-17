@@ -4,7 +4,6 @@ public class ExceptionClass extends Exception
 {
 	double amount;
 
-
 	public ExceptionClass(double depositeAmt) 
 	{
 		this.amount = depositeAmt;
@@ -15,8 +14,5 @@ public class ExceptionClass extends Exception
 	public String toString() {
 		return "You Dont have Sufficient Balence Your Balance Is : "+amount;
 	}
-	
-	
-	
-	
+
 }
