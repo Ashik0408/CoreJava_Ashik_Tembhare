@@ -10,7 +10,7 @@ public class ArrayListIndexOf {
 
 	public static void main(String[] args) throws NumberFormatException, IOException 
 	{
-		// declare the array list
+		// declare the array list obj
 		List<Double>petrolPrice=new ArrayList<Double>();
 		BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("How many Data you want to enter");
@@ -29,6 +29,9 @@ public class ArrayListIndexOf {
 		System.out.println("Enter price to know on which index it belongs");
 		double price=Double.parseDouble(reader.readLine());
 		System.out.println(petrolPrice.indexOf(price)); // Returns the index of the first occurrence of the specified elementin this list
+	
+		
+		
 	}
 
 }
