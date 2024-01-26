@@ -14,7 +14,7 @@ public class ArrayListDataAddIntoFile {
 	{
 		List<String> name=new ArrayList<>();
 		name.add("Raj");
-		name.add("Kundra");
+		name.add("Warhokar");
 		
 		
 		BufferedWriter br=new BufferedWriter(new FileWriter("F:\\Name.txt"));
